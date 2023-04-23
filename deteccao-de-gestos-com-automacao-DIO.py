@@ -113,7 +113,7 @@ while (1):
                 if arearatio < 12 and not executado:
                     cv2.putText(frame, '0 = Navegador', (0, 50),
                                 font, 2, (0, 0, 255), 3, cv2.LINE_AA)
-                    # os.system("start Chrome.exe --window-size=800,600")
+                    os.system("start Chrome.exe --window-size=800,600")
                     executado = True
                     # break
 
